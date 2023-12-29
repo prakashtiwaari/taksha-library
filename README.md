@@ -2,7 +2,7 @@
 A react UI component library for your application. It contains many npm libraries
 that can be used in your project.
 
-Explore Taksha : http://localhost:3000/
+Explore Taksha : https://taksha.netlify.app/
 
 ## How to use taksha libraries
 
