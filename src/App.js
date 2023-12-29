@@ -1,11 +1,18 @@
 import './App.css';
+import {Routes, Route} from "react-router-dom";
+import {TakshaHome} from "./TakshaHome";
+import {AllTakshaComponentProvider} from "./all-taksha-component-provider";
+import {NoRoute} from "./no-route";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Taksha is in progress!</h1>
-    </div>
-  );
+    return (
+        <Routes>
+            <Route exact path="/" element={<TakshaHome/>}/>
+            <Route path="/all-taksha-components" element={<AllTakshaComponentProvider/>}/>
+            <Route path="*" element={<NoRoute/>}/>
+        </Routes>
+
+    );
 }
 
 export default App;
