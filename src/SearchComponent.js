@@ -9,8 +9,13 @@ export const SearchComponent = () => {
             return setSearchString(event.target.value);
         }
 
-        const goToAllUIComponentsPage = () => {
-            navigate('/all-taksha-components')
+        const goToAllUIComponentsPage = (queryParam) => {
+            let allTakshaComponentUrl = '/all-taksha-components';
+
+            if(Boolean(queryParam)) {
+                allTakshaComponentUrl = allTakshaComponentUrl.concat(`?${queryParam}`);
+            }
+            navigate(allTakshaComponentUrl);
         };
 
         return (
@@ -22,6 +27,12 @@ export const SearchComponent = () => {
                     onChange={(event) => handleOnChange(event)}
                     placeholder={'  search taksha component'}
                 />
+                <button
+                    className='get-started-button'
+                    onClick={() => goToAllUIComponentsPage('gettingStarted=Y')}
+                >
+                    Get Started
+                </button>
                 <p
                     className='view-all-link'
                     onClick={() => goToAllUIComponentsPage()}>

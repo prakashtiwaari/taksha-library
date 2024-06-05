@@ -59,3 +59,20 @@
 .view-all-link:hover{
     cursor: pointer;
 }
+
+.get-started-button {
+    height: 35px;
+    color: black;
+    background-color: wheat;
+    position: relative;
+    width: fit-content;
+    left: 44%;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.get-started-button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}

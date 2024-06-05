@@ -1,0 +1,79 @@
+.takshaComponentsHome {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  gap: 2%;
+}
+
+.drawerMenusWrapper {
+  min-width: 22%;
+  background-color: wheat;
+  max-height: 98vh;
+  border-radius: 6px;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.drawerMenusWrapper>h4 {
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: -10px;
+  height: 40px;
+  padding-top: 5%;
+  text-decoration: underline;
+  position: sticky;
+  top: 0;
+}
+
+.drawerMenusWrapper>h4:hover, .drawerMenusWrapper>p:hover {
+  color: #003333;
+  cursor: pointer;
+  background: grey;
+  height: 40px;
+  text-align: center;
+  padding: 6px;
+}
+
+.drawerMenus {
+  background-color: wheat;
+  text-align: center;
+  padding: 2px;
+
+}
+
+.takshaComponentsWrapper {
+  width: 75%;
+  overflow-y: auto;
+
+}
+
+.component-name-header {
+  background-color: whitesmoke;
+  height: 780px;
+  border-radius: 4px;
+  color: black;
+
+  .header-name {
+    height: 35px;
+    background-color: whitesmoke ;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Bookman Old Style";
+  }
+}
+
+.getting-started-view {
+  background: white;
+  font-size: large;
+
+  line-height: 36px;
+  border-radius: 4px;
+
+  h3, p, h5 {
+    background: white;
+    text-align: center;
+  }
+}
+

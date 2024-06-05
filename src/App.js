@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
 import {TakshaHome} from "./TakshaHome";
-import {AllTakshaComponentProvider} from "./all-taksha-component-provider";
+import {AllTakshaComponentProvider} from "./all-components/all-taksha-component-provider";
 import {NoRoute} from "./no-route";
 
 function App() {
