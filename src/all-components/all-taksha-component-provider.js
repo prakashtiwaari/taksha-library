@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import '../styles/taksha-component.css';
 import {SideMenus} from "./side-menus";
 import {ComponentNameHeader} from "./component-name-header";
