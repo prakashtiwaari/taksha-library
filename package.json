@@ -41,5 +41,8 @@
   "engines": {
     "node": ">=20",
     "npm": ">=10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }
