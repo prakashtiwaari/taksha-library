@@ -1,20 +1,21 @@
 .preview-wrapper {
     height: 780px;
     background: grey;
-}
 
-a {
+p {
     background: grey;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 2%;
     cursor: pointer;
     color: blue;
     text-decoration: underline;
 }
 
-a:hover{
+p:hover {
     color: brown;
 }
+}
+
 
 .previews {
     display: grid;
@@ -22,18 +23,19 @@ a:hover{
     background: grey;
     padding: 5px;
 
-    .preview {
-        background-color: whitesmoke;
-        border: 1px solid rgba(0, 0, 0, 0.8);
-        padding: 20px;
-        font-size: 30px;
-        text-align: center;
-        border-radius: 6px;
-        min-height: 190px;
-    }
+.preview {
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 6px;
+    min-height: 190px;
+}
 
-    .preview:hover {
-        cursor: pointer;
-        background: wheat;
-    }
+.preview:hover {
+    cursor: pointer;
+    background: wheat;
+}
+
 }

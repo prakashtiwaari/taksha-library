@@ -13,9 +13,9 @@ export const PreviewComponentWrapper = (props) => {
     return (
         <div className='preview-wrapper'>
             <ComponentToPreview/>
-            <a onClick={handleOnClick}>
+            <p onClick={handleOnClick}>
                 view more
-            </a>
+            </p>
         </div>
     );
 }
