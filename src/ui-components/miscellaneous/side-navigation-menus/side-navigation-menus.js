@@ -1,7 +1,7 @@
 import React from 'react';
 import '../side-navigation-menus/side-navigation-menus.css'
 
-export const SideNavigationMenus = (props) => {
+const SideNavigationMenus = (props) => {
     const menus = props.menus;
     const header = props.header;
 
@@ -22,3 +22,5 @@ export const SideNavigationMenus = (props) => {
         </div>
     );
 }
+
+export default SideNavigationMenus;
