@@ -49,18 +49,18 @@
 }
 
 .component-name-header {
-  background-color: whitesmoke;
-  height: 780px;
+  background-color: whitesmoke !important;
   border-radius: 4px;
   color: black;
 
   .header-name {
-    height: 35px;
+    height: 45px;
     background-color: whitesmoke ;
     width: 100%;
     border-radius: 10px;
     text-align: center;
     font-family: "Bookman Old Style";
+    padding-top: 10px;
   }
 }
 

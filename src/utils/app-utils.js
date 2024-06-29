@@ -1,8 +1,16 @@
+import {ALERTS, BADGES, INFO_ALERT, MISCELLANEOUS, MODALS} from "../constants";
+
 export const getMenus = () => {
     return [
-        "All UI Components",
-        "Alerts",
-        "Modals",
-        "Badges"
+        ALERTS,
+        MODALS,
+        BADGES,
+        MISCELLANEOUS
+    ]
+}
+
+export const getAlertMenus = () => {
+    return [
+        INFO_ALERT
     ]
 }

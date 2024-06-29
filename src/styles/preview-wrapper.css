@@ -1,0 +1,39 @@
+.preview-wrapper {
+    height: 780px;
+    background: grey;
+}
+
+a {
+    background: grey;
+    text-align: center;
+    margin-left: 45%;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: brown;
+}
+
+.previews {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: grey;
+    padding: 5px;
+
+    .preview {
+        background-color: whitesmoke;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 6px;
+        min-height: 190px;
+    }
+
+    .preview:hover {
+        cursor: pointer;
+        background: wheat;
+    }
+}

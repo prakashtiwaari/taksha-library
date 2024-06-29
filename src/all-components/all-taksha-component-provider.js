@@ -5,9 +5,11 @@ import {ComponentNameHeader} from "./component-name-header";
 import {getMenus} from "../utils/app-utils";
 import {ChildrenComponentWrapper} from "./children-component-wrapper";
 import {GettingStarted} from "../getting-started";
+import {useNavigate} from "react-router-dom";
 
 export const AllTakshaComponentProvider = () => {
     let referencesHolder = {};
+    const navigate = useNavigate();
     const menus = getMenus();
     const [searchString, setSearchString] = React.useState('');
     const handleSearch = (event) => {
@@ -27,13 +29,15 @@ export const AllTakshaComponentProvider = () => {
 
     buildReferences(menus);
 
-    const scrollToComponent = (componentToScroll, index) => {
-        const scrollPos =800 * (index + 1);
+    const scrollToComponent = (componentToScroll, index, menu) => {
+        const scrollPos =(850 * (index + 1)) + index * 25;
 
         document.getElementById('takshaComponentsWrapper').scrollTo({
             top: scrollPos,
             behavior: "smooth"
         })
+        navigate(`#${menu}`)
+
 
         // setCurrentScrollPosition()
         /*window.scrollTo({

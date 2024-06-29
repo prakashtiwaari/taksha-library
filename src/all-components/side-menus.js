@@ -1,9 +1,8 @@
 import React from 'react';
 
 export const SideMenus = (props) => {
-    console.log(props.referencesHolder)
     const menuOnClickHandler = (menu, index) => {
-        props.onClick(props.referencesHolder[menu], index);
+        props.onClick(props.referencesHolder[menu], index, menu);
     };
 
     const scrollToTop = () => {
