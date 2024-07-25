@@ -11,11 +11,12 @@ const ErrorBanner = (props) => {
     }
 
     return (
-        open &&
+        open ?
         <div className='dismissible-error-banner'>
             <span>{errorMessage}</span>
             <img className='close-banner' src={crossIcon} alt='close' onClick={handleBannerOnClose}/>
-        </div>
+        </div> :
+            <></>
     );
 }
 
