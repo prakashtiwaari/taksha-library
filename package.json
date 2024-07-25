@@ -1,11 +1,8 @@
 {
   "name": "taksha",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "A react UI component library",
   "main": "./build/index.js",
-  "files": [
-    "build/f68e69d323c14b2cbe3d.png"
-  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
