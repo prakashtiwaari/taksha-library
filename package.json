@@ -1,6 +1,6 @@
 {
   "name": "taksha",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A react UI component library",
   "main": "./build/index.js",
   "dependencies": {
